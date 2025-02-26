@@ -1,4 +1,6 @@
-import logo from "../assets/raviKumarLogo.webp";
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import logo from "/src/assets/raviKumarLogo.webp";
+
 const Navbar = () => {
   return (
     <nav className="flex items-center justify-between py-6">
@@ -18,21 +20,21 @@ const Navbar = () => {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/cedrick-bienvenue-256317298/"
+          href="https://github.com/cedrick13bienvenue"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
         >
-          <FaLinkedin />
+          <FaGithub />
         </a>
 
         <a
-          href="https://www.linkedin.com/in/cedrick-bienvenue-256317298/"
+          href="https://www.instagram.com/cedrick13bienvenue/"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="LinkedIn"
+          aria-label="Instagram"
         >
-          <FaLinkedin />
+          <FaInstagram />
         </a>
       </div>
     </nav>
