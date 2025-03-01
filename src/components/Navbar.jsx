@@ -1,4 +1,13 @@
-import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaGithub,
+  FaInstagram,
+  FaXRay,
+  FaXingSquare,
+  FaXbox,
+  FaTwitterSquare,
+  FaTwitter,
+} from "react-icons/fa";
 import logo from "/src/assets/logo.webp";
 
 const Navbar = () => {
