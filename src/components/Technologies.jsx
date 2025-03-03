@@ -10,7 +10,6 @@ import {
   SiTypescript,
   SiNodedotjs,
   SiPython,
-  SiJest,
   SiPostman,
   SiGit,
   SiGithub,

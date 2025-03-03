@@ -6,7 +6,10 @@ const Projects = () => {
       <h2 className="my-20 text-center text-4xl">Projects</h2>
       <div>
         {PROJECTS.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          <div
+            key={index}
+            className="mb-16 flex flex-wrap lg:justify-center gap-8"
+          >
             <div className="w-full lg:w-1/4">
               <img
                 src={project.image}

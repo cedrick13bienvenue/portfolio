@@ -5,8 +5,10 @@ import project4 from "../assets/projects/project-4.webp";
 
 export const HERO_CONTENT = `I'm a junior software engineer with a good foundation in client-side scripting. I’m currently diving deeper into server-side programming and backend technologies, focusing on building robust, scalable, and efficient systems. I enjoy turning ideas into functional solutions and I’m eager to grow my expertise in comprehensive development skills to solve real-world problems through technology.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `My curiosity about how systems work has driven me to dive into building APIs and exploring DevOps practices. Though still in the early stages, I'm committed to continuous learning and adapting to new technologies. I thrive in collaborative environments and enjoy solving real-world problems through efficient and scalable solutions.
 
+Outside of coding, I enjoy connecting with people, I'm a faithful believer, and an indulgent sportsperson.
+`
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
