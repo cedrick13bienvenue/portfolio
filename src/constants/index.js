@@ -11,34 +11,21 @@ Outside of coding, I enjoy connecting with people, I'm a faithful believer, and 
 `
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
+    year: "Mar 2024 - Oct 2024",
     role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    company: "ALX Rwanda",
+    description: `Honing my skills and gaining hands-on experience in an accelerator front-end development program. Creating visually appealing and user-friendly solutions. Working on real-world projects, collaborating with experienced developers, and continuously learning and growing in the ever-evolving field of web development.`,
+    tasks: [
+      "Developed responsive, cross-browser-compatible user interfaces using HTML, CSS, and JavaScript",
+      "Implemented interactive features and API integrations with JavaScript libraries and frameworks like React.js.",
+      "Collaborated with designers and back-end developers to deliver high-quality, user-friendly web applications.",
+      "Used Git for version control, managing code repositories and resolving conflicts in a team environment.",
+      "Optimized web performance and applied SEO best practices to enhance site speed and search visibility."
+    ],
+    technologies: ["HTML", "CSS", "Javascript", "ReactJS", "Git", "Working with APIs", "GitHub", "Tailwind-css"],
   },
 ];
+
 
 export const PROJECTS = [
   {
@@ -72,7 +59,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "mailto:cedrick13bienvenue@gmail.com",
+  address: "Kigali, Rwanda",
+  phoneNo: "+250 784 667 128 ",
+  email: "cedrick13bienvenue@gmail.com",
 };
