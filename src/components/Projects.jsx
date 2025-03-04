@@ -38,7 +38,16 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
+              <h3 className="mb-2 font-semibold text-2xl">
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="no-underline text-inherit hover:underline hover:decoration-2 hover:underline-offset-4"
+                >
+                  {project.title}
+                </a>
+              </h3>
               <p className="mb-4 text-stone-400">{project.description}</p>
               {project.technologies.map((tech, index) => (
                 <span

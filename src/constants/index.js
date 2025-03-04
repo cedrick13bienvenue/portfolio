@@ -29,11 +29,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "THE BIG FIVE",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "The platform highlights the initiative's mission, problem statement, and team members, aiming to bridge the gap between education and job market demands. It features smooth animations powered by Framer Motion, a responsive design, and a clean modern layout that enhances the user experience across devices.",
+    technologies: ["HTML", "CSS", "React", "TailwindCSS"],
+    link: "https://thebig5.vercel.app/",
   },
   {
     title: "Task Management App",
@@ -41,6 +42,7 @@ export const PROJECTS = [
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    link: "#",
   },
   {
     title: "Portfolio Website",
@@ -48,6 +50,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    link: "#",
   },
   {
     title: "Blogging Platform",
@@ -55,6 +58,7 @@ export const PROJECTS = [
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    link: "#",
   },
 ];
 
