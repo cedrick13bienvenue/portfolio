@@ -22,7 +22,7 @@ export const EXPERIENCES = [
       "Used Git for version control, managing code repositories and resolving conflicts in a team environment.",
       "Optimized web performance and applied SEO best practices to enhance site speed and search visibility."
     ],
-    technologies: ["HTML", "CSS", "Javascript", "ReactJS", "Git", "Working with APIs", "GitHub", "Tailwind-css"],
+    technologies: ["HTML", "CSS", "Javascript", "React", "Git", "Working with APIs", "GitHub", "TailwindCSS"],
   },
 ];
 
