@@ -36,7 +36,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "TailwindCSS"],
     link: "https://thebig5.vercel.app/",
   },
-  {
+  /* {
     title: "Task Management App",
     image: project2,
     description:
@@ -59,7 +59,7 @@ export const PROJECTS = [
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
     link: "#",
-  },
+  }, */
 ];
 
 export const CONTACT = {
