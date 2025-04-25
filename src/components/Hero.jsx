@@ -69,7 +69,7 @@ const Hero = () => {
               download
               className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
             >
-              Download Resume
+              Resume
             </motion.a>
           </motion.div>
         </div>
