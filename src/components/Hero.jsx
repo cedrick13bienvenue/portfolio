@@ -66,11 +66,11 @@ const Hero = () => {
               href="/Cedric's Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              download
               className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
             >
-              Resume
+              My Resume
             </motion.a>
+
           </motion.div>
         </div>
       </div>
