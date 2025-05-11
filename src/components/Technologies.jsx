@@ -21,6 +21,7 @@ import {
   SiNginx,
   SiAmazonwebservices,
 } from "react-icons/si";
+import { DiRedis } from "react-icons/di";
 import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
 import { BsTerminal } from "react-icons/bs";
 import { motion } from "framer-motion";
@@ -188,6 +189,12 @@ const techStack = [
     name: "AWS",
     icon: <SiAmazonwebservices className="text-7xl text-yellow-500" />,
     duration: 3.5,
+  },
+  {
+    id: 26,
+    name: "Redis",
+    icon: <DiRedis className="text-7xl text-red-500" />,
+    duration: 4.5,
   },
 ];
 
