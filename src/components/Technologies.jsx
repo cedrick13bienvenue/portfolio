@@ -2,7 +2,6 @@ import {
   SiDocker,
   SiKubernetes,
   SiExpress,
-  SiFirebase,
   SiMongodb,
   SiMysql,
   SiPostgresql,
@@ -21,6 +20,7 @@ import {
   SiNginx,
   SiAmazonwebservices,
 } from "react-icons/si";
+import { IoLogoFirebase } from "react-icons/io5";
 import { DiRedis } from "react-icons/di";
 import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
 import { BsTerminal } from "react-icons/bs";
@@ -61,7 +61,7 @@ const techStack = [
   {
     id: 4,
     name: "Firebase",
-    icon: <SiFirebase className="text-7xl text-yellow-400" />,
+    icon: <IoLogoFirebase className="text-7xl text-yellow-400" />,
     duration: 3,
   },
   {
