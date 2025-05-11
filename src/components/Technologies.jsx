@@ -19,11 +19,8 @@ import {
   SiTailwindcss,
   SiNextdotjs,
   SiNginx,
-  SiAmazonaws,
-  SiRedis,
 } from "react-icons/si";
 import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
 import { BsTerminal } from "react-icons/bs";
 import { motion } from "framer-motion";
 
