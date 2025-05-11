@@ -19,6 +19,7 @@ import {
   SiTailwindcss,
   SiNextdotjs,
   SiNginx,
+  SiAmazonwebservices,
 } from "react-icons/si";
 import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
 import { BsTerminal } from "react-icons/bs";
@@ -181,6 +182,12 @@ const techStack = [
     name: "Nginx",
     icon: <SiNginx className="text-7xl text-green-500" />,
     duration: 4,
+  },
+  {
+    id: 25,
+    name: "AWS",
+    icon: <SiAmazonwebservices className="text-7xl text-yellow-500" />,
+    duration: 3.5,
   },
 ];
 
