@@ -18,6 +18,9 @@ import {
   SiDjango,
   SiTailwindcss,
   SiNextdotjs,
+  SiNginx,
+  SiAmazonaws,
+  SiRedis,
 } from "react-icons/si";
 import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -175,6 +178,12 @@ const techStack = [
     name: "Terraform",
     icon: <SiTerraform className="text-7xl text-purple-500" />,
     duration: 2.5,
+  },
+  {
+    id: 24,
+    name: "Nginx",
+    icon: <SiNginx className="text-7xl text-green-500" />,
+    duration: 4,
   },
 ];
 
