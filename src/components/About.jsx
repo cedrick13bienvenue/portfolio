@@ -32,7 +32,7 @@ const About = () => {
     >
       <motion.h2
         variants={childVariantsH2}
-        className="text-4xl lg:text-6xl tracking-tighter mb-10"
+        className="text-4xl lg:text-5xl tracking-tighter mb-10"
       >
         About Me
       </motion.h2>

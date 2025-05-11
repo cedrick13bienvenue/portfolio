@@ -53,10 +53,10 @@ const techStack = [
     duration: 5,
   },
   {
-    id: 23,
-    name: "Terraform",
-    icon: <SiTerraform className="text-7xl text-purple-500" />,
-    duration: 2.5,
+    id: 19,
+    name: "GraphQL",
+    icon: <SiGraphql className="text-7xl text-pink-600" />,
+    duration: 3,
   },
   {
     id: 4,
@@ -149,10 +149,10 @@ const techStack = [
     duration: 5,
   },
   {
-    id: 19,
-    name: "GraphQL",
-    icon: <SiGraphql className="text-7xl text-pink-600" />,
-    duration: 3,
+    id: 23,
+    name: "Terraform",
+    icon: <SiTerraform className="text-7xl text-purple-500" />,
+    duration: 2.5,
   },
   {
     id: 16,
@@ -206,7 +206,7 @@ const Technologies = () => {
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1.5 }}
         viewport={{ once: true }}
-        className="my-20 text-center text-4xl"
+        className="my-20 text-center text-5xl"
       >
         Technologies
       </motion.h2>

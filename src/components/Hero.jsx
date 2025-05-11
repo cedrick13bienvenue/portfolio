@@ -1,6 +1,7 @@
 import profile from "../assets/profile.webp";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
+import { FaArrowDown } from "react-icons/fa";
 
 const containerVariants = {
   hidden: { opacity: 0, x: -100 },
@@ -66,11 +67,15 @@ const Hero = () => {
               href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
+              whileHover={{ scale: 1.05, rotate: 5 }}
+              transition={{ duration: 0.2 }}
+              className="mt-[30px] mb-[50px] bg-black flex flex-row items-center justify-center gap-[20px] pl-[30px] pr-[10px] py-[10px] rounded-full"
             >
-              My Resume
+              <p className="text-white">My Resume</p>
+              <span className="text-black bg-white px-[15px] py-[15px] rounded-full">
+                <FaArrowDown />
+              </span>
             </motion.a>
-
           </motion.div>
         </div>
       </div>
