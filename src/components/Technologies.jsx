@@ -23,7 +23,7 @@ import {
 import { IoLogoFirebase } from "react-icons/io5";
 import { DiRedis } from "react-icons/di";
 import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
-import { BsTerminal } from "react-icons/bs";
+import { FaTerminal } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -47,16 +47,16 @@ const techStack = [
     duration: 3,
   },
   {
-    id: 2,
-    name: "Express",
-    icon: <SiExpress className="text-7xl text-green-500" />,
-    duration: 2.5,
+    id: 18,
+    name: "Git",
+    icon: <SiGit className="text-7xl text-orange-600" />,
+    duration: 5,
   },
   {
-    id: 3,
-    name: "Terminal",
-    icon: <BsTerminal className="text-7xl text-yellow-500" />,
-    duration: 5,
+    id: 23,
+    name: "Terraform",
+    icon: <SiTerraform className="text-7xl text-purple-500" />,
+    duration: 2.5,
   },
   {
     id: 4,
@@ -71,9 +71,9 @@ const techStack = [
     duration: 2.5,
   },
   {
-    id: 6,
-    name: "MongoDB",
-    icon: <SiMongodb className="text-7xl text-green-500" />,
+    id: 21,
+    name: "GitHub Actions",
+    icon: <SiGithubactions className="text-7xl text-white" />,
     duration: 5,
   },
   {
@@ -89,10 +89,10 @@ const techStack = [
     duration: 2.5,
   },
   {
-    id: 9,
-    name: "PostgreSQL",
-    icon: <SiPostgresql className="text-7xl text-blue-700" />,
-    duration: 5,
+    id: 24,
+    name: "Nginx",
+    icon: <SiNginx className="text-7xl text-green-500" />,
+    duration: 4,
   },
   {
     id: 10,
@@ -113,10 +113,10 @@ const techStack = [
     duration: 5,
   },
   {
-    id: 13,
-    name: "TypeScript",
-    icon: <SiTypescript className="text-7xl text-blue-500" />,
-    duration: 3,
+    id: 26,
+    name: "Redis",
+    icon: <DiRedis className="text-[6rem] text-red-500" />,
+    duration: 4.5,
   },
   {
     id: 14,
@@ -131,10 +131,10 @@ const techStack = [
     duration: 5,
   },
   {
-    id: 16,
-    name: "CSS3",
-    icon: <FaCss3Alt className="text-7xl text-blue-500" />,
-    duration: 3,
+    id: 20,
+    name: "Next.js",
+    icon: <SiNextdotjs className="text-7xl text-white" />,
+    duration: 2.5,
   },
   {
     id: 17,
@@ -143,9 +143,9 @@ const techStack = [
     duration: 2.5,
   },
   {
-    id: 18,
-    name: "Git",
-    icon: <SiGit className="text-7xl text-orange-600" />,
+    id: 3,
+    name: "Terminal",
+    icon: <FaTerminal className="text-7xl text-yellow-500" />,
     duration: 5,
   },
   {
@@ -155,15 +155,15 @@ const techStack = [
     duration: 3,
   },
   {
-    id: 20,
-    name: "Next.js",
-    icon: <SiNextdotjs className="text-7xl text-white" />,
-    duration: 2.5,
+    id: 16,
+    name: "CSS3",
+    icon: <FaCss3Alt className="text-7xl text-blue-500" />,
+    duration: 3,
   },
   {
-    id: 21,
-    name: "GitHub Actions",
-    icon: <SiGithubactions className="text-7xl text-white" />,
+    id: 6,
+    name: "MongoDB",
+    icon: <SiMongodb className="text-7xl text-green-500" />,
     duration: 5,
   },
   {
@@ -173,16 +173,16 @@ const techStack = [
     duration: 3,
   },
   {
-    id: 23,
-    name: "Terraform",
-    icon: <SiTerraform className="text-7xl text-purple-500" />,
+    id: 2,
+    name: "Express",
+    icon: <SiExpress className="text-7xl text-green-500" />,
     duration: 2.5,
   },
   {
-    id: 24,
-    name: "Nginx",
-    icon: <SiNginx className="text-7xl text-green-500" />,
-    duration: 4,
+    id: 9,
+    name: "PostgreSQL",
+    icon: <SiPostgresql className="text-7xl text-blue-700" />,
+    duration: 5,
   },
   {
     id: 25,
@@ -191,10 +191,10 @@ const techStack = [
     duration: 3.5,
   },
   {
-    id: 26,
-    name: "Redis",
-    icon: <DiRedis className="text-7xl text-red-500" />,
-    duration: 4.5,
+    id: 13,
+    name: "TypeScript",
+    icon: <SiTypescript className="text-7xl text-blue-500" />,
+    duration: 3,
   },
 ];
 
