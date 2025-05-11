@@ -17,6 +17,7 @@ import {
   SiGithub,
   SiDjango,
   SiTailwindcss,
+  SiNextdotjs,
 } from "react-icons/si";
 import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -154,7 +155,7 @@ const techStack = [
   {
     id: 20,
     name: "Next.js",
-    icon: <TbBrandNextjs className="text-7xl text-white" />,
+    icon: <SiNextdotjs className="text-7xl text-white" />,
     duration: 2.5,
   },
   {
