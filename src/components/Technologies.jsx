@@ -7,6 +7,7 @@ import {
   SiMysql,
   SiPostgresql,
   SiJavascript,
+  SiTerraform,
   SiTypescript,
   SiNodedotjs,
   SiPython,
@@ -167,6 +168,12 @@ const techStack = [
     name: "Kubernetes",
     icon: <SiKubernetes className="text-7xl text-blue-500" />,
     duration: 3,
+  },
+  {
+    id: 23,
+    name: "Terraform",
+    icon: <SiTerraform className="text-7xl text-purple-500" />,
+    duration: 2.5,
   },
 ];
 
