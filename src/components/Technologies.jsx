@@ -14,7 +14,7 @@ import {
   SiPostman,
   SiGraphql,
   SiGit,
-  SiGithub,
+  SiGithubactions,
   SiDjango,
   SiTailwindcss,
   SiNextdotjs,
@@ -160,8 +160,8 @@ const techStack = [
   },
   {
     id: 21,
-    name: "GitHub",
-    icon: <SiGithub className="text-7xl text-white" />,
+    name: "GitHub Actions",
+    icon: <SiGithubactions className="text-7xl text-white" />,
     duration: 5,
   },
   {
