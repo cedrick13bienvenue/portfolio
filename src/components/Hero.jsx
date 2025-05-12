@@ -1,7 +1,7 @@
 import profile from "../assets/profile.webp";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
-import { FaArrowDown } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const containerVariants = {
   hidden: { opacity: 0, x: -100 },
@@ -73,7 +73,7 @@ const Hero = () => {
             >
               <p className="text-white">My Resume</p>
               <span className="text-black bg-white px-[15px] py-[15px] rounded-full">
-                <FaArrowDown />
+                <FaExternalLinkAlt />
               </span>
             </motion.a>
           </motion.div>
