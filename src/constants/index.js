@@ -37,6 +37,7 @@ export const EXPERIENCES = [
     year: "Mar 2024 - Oct 2024",
     role: "Frontend Developer",
     company: "ALX Rwanda",
+    companyLink: "https://www.alxafrica.com/rwanda/",
     description: `Honing my skills and gaining hands-on experience in an accelerator front-end development program. Creating visually appealing and user-friendly solutions. Working on real-world projects, collaborating with experienced developers, and continuously learning and growing in the ever-evolving field of web development.`,
     tasks: [
       "Developed responsive, cross-browser-compatible user interfaces using HTML, CSS, and JavaScript",
