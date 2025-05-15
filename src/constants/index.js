@@ -8,7 +8,7 @@ export const HERO_CONTENT = `I'm a junior software engineer with a good foundati
 export const ABOUT_TEXT = `My curiosity about how systems work has driven me to dive into building APIs and exploring DevOps practices. Though still in the early stages, I'm committed to continuous learning and adapting to new technologies. I thrive in collaborative environments and enjoy solving real-world problems through efficient and scalable solutions.
 
 Outside of coding, I enjoy connecting with people, I'm a faithful believer, and an indulgent sportsperson.
-`
+`;
 export const EXPERIENCES = [
   {
     year: "Mar 2024 - Oct 2024",
@@ -20,12 +20,20 @@ export const EXPERIENCES = [
       "Implemented interactive features and API integrations with JavaScript libraries and frameworks like React.js.",
       "Collaborated with designers and back-end developers to deliver high-quality, user-friendly web applications.",
       "Used Git for version control, managing code repositories and resolving conflicts in a team environment.",
-      "Optimized web performance and applied SEO best practices to enhance site speed and search visibility."
+      "Optimized web performance and applied SEO best practices to enhance site speed and search visibility.",
     ],
-    technologies: ["HTML", "CSS", "Javascript", "React", "Git", "Working with APIs", "GitHub", "TailwindCSS"],
+    technologies: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React",
+      "Git",
+      "Working with APIs",
+      "GitHub",
+      "TailwindCSS",
+    ],
   },
 ];
-
 
 export const PROJECTS = [
   {

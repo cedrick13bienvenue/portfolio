@@ -38,11 +38,11 @@ const Experience = () => {
                 </span>
               </h3>
               <p className="mb-4 text-stone-400">{experience.description}</p>
-              <ul className="list-disc pl-5 mb-4 text-stone-400">
+              {/* {<ul className="list-disc pl-5 mb-4 text-stone-400">
                 {experience.tasks.map((task, index) => (
                   <li key={index}>{task}</li>
                 ))}
-              </ul>
+              </ul>} */}
               <div className="flex flex-wrap gap-2">
                 {experience.technologies.map((tech, index) => (
                   <span
