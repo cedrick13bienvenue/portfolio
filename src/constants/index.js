@@ -14,6 +14,7 @@ export const EXPERIENCES = [
     year: "Mar 2025 - Present",
     role: "QA Engineer",
     company: "Yegobox",
+    companyLink: "https://yegobox.com/",
     description: `Actively contributing to Flipper, an open-source business management platform through a QA apprenticeship. This involves testing features impacting users of the platform, reporting issues, and ensuring quality from the user’s perspective, all while learning within a collaborative and agile environment.`,
     tasks: [
       "Collaborating with Flipper’s core maintainers to test features and workflows within an open-source environment.",
