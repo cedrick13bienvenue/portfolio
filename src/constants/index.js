@@ -11,6 +11,28 @@ Outside of coding, I enjoy connecting with people, I'm a faithful believer, and 
 `;
 export const EXPERIENCES = [
   {
+    year: "Mar 2025 - Present",
+    role: "QA Engineer",
+    company: "Yegobox",
+    description: `Actively contributing to Flipper, an open-source business management platform through a QA apprenticeship. This involves testing features impacting users of the platform, reporting issues, and ensuring quality from the user’s perspective, all while learning within a collaborative and agile environment.`,
+    tasks: [
+      "Collaborating with Flipper’s core maintainers to test features and workflows within an open-source environment.",
+      "Identifying, reproducing, and reporting bugs using GitHub Issues.",
+      "Writing clear test cases, documenting steps to reproduce, and suggesting usability improvements.",
+      "Validating UI components across different platforms and ensuring cross-device consistency.",
+      "Offering structured QA feedback aligned with each new feature release.",
+    ],
+    technologies: [
+      "Integration Testing",
+      "E2E Testing",
+      "UI Testing",
+      "Regression Testing",
+      "Usability Testing",
+      "Git",
+      "GitHub",
+    ],
+  },
+  {
     year: "Mar 2024 - Oct 2024",
     role: "Frontend Developer",
     company: "ALX Rwanda",
