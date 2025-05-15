@@ -29,8 +29,10 @@ export const EXPERIENCES = [
       "UI Testing",
       "Regression Testing",
       "Usability Testing",
+      "Playwright",
       "Git",
       "GitHub",
+      "Cypress",
     ],
   },
   {
