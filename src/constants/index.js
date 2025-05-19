@@ -31,7 +31,6 @@ export const EXPERIENCES = [
       "Usability Testing",
       "Playwright",
       "Git & Github",
-      "Cypress",
     ],
   },
   // {
