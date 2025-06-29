@@ -11,7 +11,7 @@ Outside of coding, I enjoy connecting with people, I'm a faithful believer, and 
 `;
 export const EXPERIENCES = [
   {
-    year: "Mar 2025 - Present",
+    year: "May 2025 - Present",
     role: "QA Engineer",
     company: "Yegobox",
     companyLink: "https://yegobox.com/",
@@ -94,14 +94,25 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "TailwindCSS"],
     link: "https://thebig5.vercel.app/",
   },
-  /* {
-    title: "Task Management App",
-    image: project2,
+  {
+    title: "MERN Authentication System",
+    image: project2, // Replace with a screenshot of your app or auth form
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-    link: "#",
+      "A backend-focused MERN stack project built to explore user authentication flows, JWT security, email verification, and password reset via OTP. Includes protected routes, cookie-based sessions, and Swagger API documentation. Designed as a foundational project to practice backend APIs, deployment, and DevOps basics.",
+    technologies: [
+      "MongoDB",
+      "Express.js",
+      "React",
+      "Node.js",
+      "JWT",
+      "Nodemailer",
+      "Swagger",
+      "Render",
+      "Vercel",
+    ],
+    link: "https://authentic-mern.vercel.app",
   },
+  /*
   {
     title: "Portfolio Website",
     image: project3,
