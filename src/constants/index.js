@@ -11,28 +11,60 @@ Outside of coding, I enjoy connecting with people, I'm a faithful believer, and 
 `;
 export const EXPERIENCES = [
   {
-    year: "May 2025 - Present",
-    role: "QA Engineer",
-    company: "Yegobox",
-    companyLink: "https://yegobox.com/",
-    description: `Actively contributing to Flipper, an open-source business management platform through a QA apprenticeship. This involves testing features impacting users of the platform, reporting issues, and ensuring quality from the user’s perspective, all while learning within a collaborative and agile environment.`,
+    year: "July 2025 - Present",
+    role: "Backend Developer",
+    company: "Solvit Africa",
+    companyLink: "https://solvit.africa/",
+    description: `Participating in the Code2Connect Fellowship, a hands-on, in-person program by Solvit Africa aimed at equipping youth
+with employable tech skills. Specializing in backend development using Node.js ,working on practical projects that involve
+building real-world, scalable server-side solutions.`,
     tasks: [
-      "Collaborating with Flipper’s core maintainers to test features and workflows within an open-source environment.",
-      "Identifying, reproducing, and reporting bugs using GitHub Issues.",
-      "Writing clear test cases, documenting steps to reproduce, and suggesting usability improvements.",
-      "Validating UI components across different platforms and ensuring cross-device consistency.",
-      "Offering structured QA feedback aligned with each new feature release.",
+      "Gaining expertise in RESTful API creation, authentication and authorization (JWT), data validation, and secure endpoint development.",
+      "Expanding knowledge in system integration within the JavaScript ecosystem, connecting backend services with third-party APIs, and implementing middleware for performance and security.",
+      "Developing strong skills in database interaction with PostgreSQL and MongoDB, including schema design, query optimization, and CRUD operations.",
+      "Advancing skills in collaborative development, using Git for version control, managing feature branches, resolving merge conflicts, and applying agile principles in a team environment.",
+      "Applying best practices in backend architecture, including modular code structure, error handling, logging, caching,and deployment workflows using CI/CD pipelines.",
     ],
     technologies: [
-      "Integration Testing",
-      "E2E Testing",
-      "UI Testing",
-      "Regression Testing",
-      "Usability Testing",
-      "Playwright",
-      "Git & Github",
+      "Docker",
+      "Express.js",
+      "Typescript",
+      "RESTful APIs",
+      "JWT",
+      "Middleware",
+      "Error Handling",
+      "Input Validation",
+      "CORS Configuration",
+      "Redis",
+      "PostgreSQL",
+      "ORMs",
+      "API Documentation",
     ],
   },
+
+  // {
+  //   year: "May 2025 - Present",
+  //   role: "QA Engineer",
+  //   company: "Yegobox",
+  //   companyLink: "https://yegobox.com/",
+  //   description: `Actively contributing to Flipper, an open-source business management platform through a QA apprenticeship. This involves testing features impacting users of the platform, reporting issues, and ensuring quality from the user’s perspective, all while learning within a collaborative and agile environment.`,
+  //   tasks: [
+  //     "Collaborating with Flipper’s core maintainers to test features and workflows within an open-source environment.",
+  //     "Identifying, reproducing, and reporting bugs using GitHub Issues.",
+  //     "Writing clear test cases, documenting steps to reproduce, and suggesting usability improvements.",
+  //     "Validating UI components across different platforms and ensuring cross-device consistency.",
+  //     "Offering structured QA feedback aligned with each new feature release.",
+  //   ],
+  //   technologies: [
+  //     "Integration Testing",
+  //     "E2E Testing",
+  //     "UI Testing",
+  //     "Regression Testing",
+  //     "Usability Testing",
+  //     "Playwright",
+  //     "Git & Github",
+  //   ],
+  // },
   // {
   //   year: "Apr 2025 - Present",
   //   role: "Software Engineer",
@@ -95,10 +127,10 @@ export const PROJECTS = [
     link: "https://thebig5.vercel.app/",
   },
   {
-    title: "MERN Authentication System",
+    title: "AUTHENTICATION",
     image: project2, // Replace with a screenshot of your app or auth form
     description:
-      "A backend-focused MERN stack project built to explore user authentication flows, JWT security, email verification, and password reset via OTP. Includes protected routes, cookie-based sessions, and Swagger API documentation. Designed as a foundational project to practice backend APIs, deployment, and DevOps basics.",
+      "A backend-focused MERN stack project built to explore user authentication flows, JWT security, email verification, and password reset via OTP. Includes protected routes, cookie-based sessions, and Swagger API documentation. Designed as a foundational project to practice backend APIs",
     technologies: [
       "MongoDB",
       "Express.js",
@@ -112,23 +144,59 @@ export const PROJECTS = [
     ],
     link: "https://authentic-mern.vercel.app",
   },
-  /*
+
   {
-    title: "Portfolio Website",
+    title: "BLOG-BACKEND",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-    link: "#",
+      "This blog backend application is a Node.js and Express-based server application designed to power a content publishing platform. It provides a robust, scalable API for managing blog posts, categories, and users, with full CRUD functionality and authentication features. The project focuses on clean architecture, secure endpoints, and database integration, making it suitable for production-ready deployment or as a foundation for a larger blogging system",
+    technologies: [
+      "Express.js",
+      "Typescript",
+      "Docker",
+      "Redis",
+      "JWT",
+      "PostgreSQL",
+      "Cloudinary",
+      "Sequalize",
+    ],
+    link: " https://github.com/cedrick13bienvenue/practice/tree/master/back-end/blog-backend",
   },
+
   {
-    title: "Blogging Platform",
+    title: "MVP",
+    image: project1,
+    description:
+      "A Next.js/React-based tourism booking platform MVP that currently supports mock authentication, payment in RWF, and a mobile-responsive design. The platform is in its early stage, with many features not yet implemented, such as real user authentication, secure payment gateways, booking management, user dashboards, reviews, and integration with external services. It serves as a functional prototype to demonstrate core flows and validate the concept before full development.",
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "TailwindCSS",
+      "Radix UI",
+      "Recharts",
+    ],
+    link: "https://trekkrwanda.vercel.app/",
+  },
+
+  {
+    title: "E-COMMERCE API",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-    link: "#",
-  }, */
+      " An e-commerce backend built with Node.js, Express, and TypeScript using Sequelize with PostgreSQL. Features include JWT-based authentication, file uploads, Redis caching, and security middleware. API endpoints are documented with Swagger, logging is managed with Winston, and Docker is supported for deployment",
+    technologies: [
+      "Node.js",
+      "Express",
+      "TypeScript",
+      "Sequelize",
+      "PostgreSQL",
+      "JWT",
+      "Multer",
+      "Redis",
+      "Docker",
+    ],
+    link: "https://github.com/Solvit-Africa-Training-Center/ecommerce-practice",
+  },
 ];
 
 export const CONTACT = {
