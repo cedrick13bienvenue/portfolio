@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
+import Chatbot from "./components/Chatbot";
 
 const App = () => {
   return (
@@ -24,6 +25,9 @@ const App = () => {
         <Experience />
         <Contact />
       </div>
+
+      {/* Chatbot Component */}
+      <Chatbot />
     </div>
   );
 };
