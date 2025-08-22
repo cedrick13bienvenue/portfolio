@@ -58,18 +58,7 @@ const techStack = [
     icon: <SiGraphql className="text-7xl text-pink-600" />,
     duration: 3,
   },
-  {
-    id: 4,
-    name: "Firebase",
-    icon: <IoLogoFirebase className="text-7xl text-yellow-400" />,
-    duration: 3,
-  },
-  {
-    id: 5,
-    name: "Django",
-    icon: <SiDjango className="text-7xl text-green-700" />,
-    duration: 2.5,
-  },
+
   {
     id: 21,
     name: "GitHub Actions",
